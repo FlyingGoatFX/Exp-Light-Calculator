@@ -12,13 +12,13 @@ Right now, only radiance is targeted (and irradiance from exposure), so while fi
   Irradiance from lights with strong focusing lenses (lekos, large fresnels, etc.) may be pretty drastically underestimated depending on how much they're spotted, and light sources with egg crates/grid modifiers will be *overestimated* at closer distances.
 
 Accuracy may vary--spherical cows or something.
-
-
-
-
-
-
-
+.
+.
+.
+.
+.
+.
+.
 _ _ _ _ _
 Note on old versions:
 In the folder 'old' are some--you guessed it--older drafts, including a 'guided' version--this is an earlier draft that's more like a guided tour through sequential inputs and while comparatively verbose and sports shinier graphics, doesn't allow for live changes to previous inputs and doesn't run in a loop.
