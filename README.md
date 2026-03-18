@@ -23,6 +23,7 @@ Calculating light falloff, irradiance from exposure parameters, and/or radiance 
 You must have:
 - A Windows x86 or x64 environment
 - \>= 8.8 MB available storage space.
+
 Start by downloading the .EXE.  (or compile from the source code .cs and .csproj files in something like Visual Studio.) 
 Run LightCalc_Field.exe and ensure window and/or font is sized such that dimensions are >= 92x17. Use only with monospace fonts.  Uses CP437 character set.  Can be run as usual double-click or, better, from Powershell/CMD terminal.
 
