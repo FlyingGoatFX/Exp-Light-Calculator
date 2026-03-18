@@ -1081,7 +1081,7 @@ while(editParam == "d")
     }//editParam d (distance) loop end
 while (editParam == "h")
         {
-            if(colorModeValIn<colorModeMax)//if color mode less than maximum, iterate, else reset
+            if(colorModeValIn<colorModeMax)//if color mode less than maximum, increment, else reset
             {
             colorModeValIn++;
             }else{colorModeValIn=0;}
