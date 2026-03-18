@@ -15,7 +15,6 @@ Accuracy may vary--spherical cows or something.
  Also note that I'm a film/photo/video guy, and that I have very little experience with C# coding outside of C-likes (see my DCTLs).  The flow and readability of the code isn't amazing, but it does do what it should do and seemingly smoothly from my own testing.  Any feedback welcome and very much appreciated.   
  
 <br/>
-<br/>
 
 ### WHAT'S IT FOR?
 Calculating light falloff, irradiance from exposure parameters, and/or radiance necessary to acheive the same, given distance from source.
