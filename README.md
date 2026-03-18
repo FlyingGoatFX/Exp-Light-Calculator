@@ -38,6 +38,9 @@ While input data is insufficient or yields a radiance of either zero or infinite
 
 To find, say, exposure parameter(s) from irradiance, a try-and-check approach can be used with relative ease, but I'd highly recommend consulting the dial on an analogue incident light meter (such as a Sekonic).
 
+ >#### EXPOSURE MODE AND SWITCHING BACK TO DIRECT IRRADIANCE
+>To enter input of exposure parameters, enter "e" for irradiance/exposure and enter option "\[3\] Calculate".  The EDIT MENU should now prompt you to select from ISO/shutter/ƒ/+stops parameters to edit. Redrawing ("m") and re-entering irr/exp ("e"), will lead back to this same menu, as does selecting and entering a value for one of the prompted exposure parameters.  To clear exposure parameters and return to direct irradiance input in footcandles or lux, enter "c" while in exposure mode when prompted to select from ISO/shutter/ƒ/+stops.  From here, you can then enter "m" to collapse exposure paramters into a single value in footcandles and return to menu, or select a unit of irradiance (currently either fc or lux) to reset irradiance/exposure entirely and enter a new value.
+
 ### COLOR MODES
 From v1.11.0, you can enter "h" to toggle between different color modes.  'Default' is a simple grayscale scheme.  'Warm Light' has a gentler, orange or yellow (depending on terminal settings) color scheme--ideal for viewing in an environment with warm lighting, such as from tungsten or sodium.  'Dark Adapt' dims, tints the interface red, intended for comfortable viewing in darkness and to minimize photopupillary reflex from viewing a computer screen in an otherwise low-light environment.
 
