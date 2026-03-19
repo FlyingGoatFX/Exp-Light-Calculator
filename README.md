@@ -1,4 +1,4 @@
-# LightCalc
+# EXPOSURE-TO-LIGHT FIELD CALCULATOR
 A lightweight lil exposure/falloff tool in a text-game-style console app for Windows that takes input of desired exposure settings and distance from light source, then calculates the power of light source required to meet those parameters.
 Also outputs unit conversions between metric and imperial.
 _____________________________________________________
