@@ -1205,7 +1205,7 @@ while(editParam=="p" && dirConfirmation == 0)
                     Console.Write("                                   Any .txt w/ same name+dir will be overwritten.");
                     Console.ForegroundColor = colorMid;
                     Console.SetCursorPosition(18, Console.CursorTop-1);
-                    fileName = Console.ReadLine() + "_LightCalc.txt";
+                    fileName = Console.ReadLine() + "_Exp-Light.txt";
                     Console.SetCursorPosition(0, Console.CursorTop);
                     Console.Write("                                                                                          \r");//clear warning line and CR
                     Console.SetCursorPosition(0, Console.CursorTop-1);//go to input line
@@ -1272,7 +1272,7 @@ while(editParam=="p" && dirConfirmation == 0)
                                    "                                                                     FlyingGoatFX@gmail.com","","",
                                    "(c)MMXXVI FlyingGoatFX                                                                     "
                                    };
-            fileName = fileName + "_LightCalc.txt";//re-add file suffix and extension
+            fileName = fileName + "_Exp-Light.txt";//re-add file suffix and extension
             File.WriteAllLines(printDir + @"\" + fileName, printOutput);
             byte animCounter = 0;
             while(animCounter<4)
