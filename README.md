@@ -25,7 +25,7 @@ You must have:
 - \>= 8.8 MB available storage space.
 
 Start by downloading the .EXE.  (or compile from the source code .cs and .csproj files in something like Visual Studio.) 
-Run LightCalc_Field.exe and ensure window and/or font is sized such that dimensions are >= 92x17. Use only with monospace fonts.  Uses CP437 character set.  Can be run as usual double-click or, better, from Powershell/CMD terminal.
+Run the .EXE and ensure window and/or font is sized such that dimensions are >= 92x17. Use only with monospace fonts.  Uses CP437 character set.  Can be run as usual double-click or, better, from Powershell/CMD terminal.
 
 ### INTERFACE
 If window/font size is sufficient, you can strike any key to clear the TITLE PAGE and enter the MAIN MENU.  Here, you can type and enter a letter corresponding to an action or parameter you'd like to enter or edit.  An EDIT MENU should descend that prompts for units, then a value.  When prompted for units or exposure parameter, a different letter from the main menu can be entered instead to hop between different parameters or actions.  Attempting the same from the input field for a value will return invalid and won't allow escape until a numerical value is entered.
